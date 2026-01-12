@@ -1,0 +1,154 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.center-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  width: 400px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Buttons */
+.primary-btn, .secondary-btn {
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  margin: 5px;
+}
+
+.primary-btn {
+  background: #1976d2;
+  color: white;
+}
+
+.primary-btn:hover {
+  background: #125ca2;
+}
+
+.secondary-btn {
+  background: #e0e0e0;
+}
+
+.secondary-btn:hover {
+  background: #c5c5c5;
+}
+
+/* Exam Layout */
+.exam-container {
+  width: 80%;
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.1);
+}
+
+.exam-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timer-box {
+  background: #ffeb3b;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.questions-box {
+  margin-top: 20px;
+}
+
+.questions-box p {
+  font-size: 18px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+label {
+  display: block;
+  padding: 6px 0;
+  cursor: pointer;
+}
+
+.score-text {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.correct {
+  color: green;
+  font-weight: bold;
+}
+
+.wrong {
+  color: red;
+  font-weight: bold;
+}
+
+.result-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #f0f4f8;
+  border-radius: 8px;
+}
+.question-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #f0f4f8;
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.correct {
+  color: green;
+  font-weight: bold;
+}
+
+.wrong {
+  color: red;
+  font-weight: bold;
+}
+
+.result-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #e8f0fe;
+  border-radius: 8px;
+}
+.primary-btn {
+  background-color: #4CAF50; /* green */
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background-color: #45a049;
+}

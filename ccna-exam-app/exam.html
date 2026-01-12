@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CCNA Exam</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="exam-container">
+  <div class="exam-header">
+    <h2>CCNA Exam</h2>
+    <div class="timer-box">
+      ⏱ Time: <span id="timer">30:00</span>
+    </div>
+  </div>
+
+  <div id="questions" class="questions-box"></div>
+
+  <div class="exam-footer">
+    <button class="secondary-btn" onclick="prevPage()">Prev</button>
+    <button class="secondary-btn" onclick="nextPage()">Next</button>
+    <button class="primary-btn" onclick="finish()">Submit</button>
+  </div>
+</div>
+
+<script src="questions.js"></script>
+<script src="exam.js"></script>
+
+</body>
+</html>
